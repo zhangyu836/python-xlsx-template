@@ -3,12 +3,12 @@ from setuptools import setup
 
 CUR_DIR = os.path.abspath(os.path.dirname(__file__))
 README = os.path.join(CUR_DIR, "README.md")
-with open("README.md", "r") as fd:
+with open(README, "r") as fd:
     long_description = fd.read()
 
 setup(
     name = 'xlsxtpl',
-    version = "0.2",
+    version = "0.2.1",
     author = 'Zhang Yu',
     author_email = 'zhangyu836@gmail.com',
     url = 'https://github.com/zhangyu836/python-xlsx-template',
