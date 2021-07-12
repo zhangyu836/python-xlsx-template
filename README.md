@@ -1,4 +1,15 @@
 
+Use [xltpl](https://github.com/zhangyu836/xltpl).
+
+
+
+
+
+
+
+
+
+
 # xlsxtpl
 A python module to generate xlsx files from a xlsx template.
 
