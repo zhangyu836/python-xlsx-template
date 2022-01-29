@@ -8,7 +8,7 @@ with open(README, "r") as fd:
 
 setup(
     name = 'xlsxtpl',
-    version = "0.2.1",
+    version = "0.3",
     author = 'Zhang Yu',
     author_email = 'zhangyu836@gmail.com',
     url = 'https://github.com/zhangyu836/python-xlsx-template',
