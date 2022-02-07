@@ -8,12 +8,12 @@ with open(README, "r") as fd:
 
 setup(
     name = 'xlsxtpl',
-    version = "0.3",
+    version = "0.3.1",
     author = 'Zhang Yu',
     author_email = 'zhangyu836@gmail.com',
     url = 'https://github.com/zhangyu836/python-xlsx-template',
     packages = ['xlsxtpl'],
-	install_requires = ['openpyxl', 'jinja2', 'six'],
+	install_requires = ['xltpl >= 0.13'],
     description = ( 'A python module to generate xlsx files from a xlsx template' ),
     long_description = long_description,
     long_description_content_type = "text/markdown",
